@@ -1,0 +1,86 @@
+You can create the desired login screen using HTML and CSS as follows:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('your-https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQof4ROhuPi5iUpRZunRlimRuStxOre6libu9tvOn9n&s-image.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: flex-end;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 20px;
+            width: 30%;
+        }
+
+        .title {
+            font-size: 12px;
+        }
+
+        .big-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .login-methods {
+            margin-top: 20px;
+        }
+
+        .login-button {
+            background-color: #000;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .register-button {
+            background-color: gray;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .remember-me {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="title">Masuk ke</div>
+        <div class="big-title">SCHOENE</div>
+        <div class="login-methods">
+            <div>Masuk dgn</div>
+            <button class="login-button"><a href="https://mail.google.com/">Gmail</a></button>
+            <button class="login-button"><a href="https://www.facebook.com/">Facebook</a></button>
+        </div>
+        <label for="email">Alamat Email</label><br>
+        <input type="text" id="email"><br>
+        <label for="password">Sandi</label><br>
+        <input type="password" id="password"><br>
+        <div class="remember-me">
+            <input type="checkbox" id="remember"> Ingat Saya
+        </div>
+        <button class="login-button">Masuk</button>
+        <button class="register-button">Mendaftar</button>
+    </div>
+</body>
+</html>
